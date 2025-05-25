@@ -1,6 +1,6 @@
-package repository;
+package com.learnwithm.rms_api.repository;
 
-import entity.Staff;
+import com.learnwithm.rms_api.entity.Staff;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

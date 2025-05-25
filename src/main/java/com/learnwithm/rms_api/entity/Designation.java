@@ -1,4 +1,4 @@
-package entity;
+package com.learnwithm.rms_api.entity;
 
 public enum Designation {
     WAITER,

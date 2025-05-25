@@ -1,4 +1,4 @@
-package entity;
+package com.learnwithm.rms_api.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -12,12 +12,8 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
+@MappedSuperclass
 public class User {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
 
     private  String firstName;
 
@@ -29,5 +25,5 @@ public class User {
 
     private String email;
 
-    private Address address;
+//    private Address address;
 }

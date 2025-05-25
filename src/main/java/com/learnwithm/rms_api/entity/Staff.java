@@ -1,4 +1,4 @@
-package entity;
+package com.learnwithm.rms_api.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
